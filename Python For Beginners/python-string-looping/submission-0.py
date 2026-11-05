@@ -1,0 +1,8 @@
+def print_string_characters(my_string: str) -> None:
+    i = len(my_string)
+    for j in range(i):
+        print(my_string[j])
+
+# do not modify below this line
+print_string_characters("Hello, World!")
+print_string_characters("Good Job!")
